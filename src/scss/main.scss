@@ -1,16 +1,4 @@
-@import "_normalize";
-@import "_variables";
-
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  color: $yellow;
-  background: $violet;
+.list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
