@@ -1,4 +1,13 @@
-.list{
+body{
+  align-items: center;
+}
+.list {
+  list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.list__item {
+  background: rgb(209, 201, 201);
+  padding: 8px;
+  margin: 8px;
 }
